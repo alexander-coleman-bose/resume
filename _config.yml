@@ -59,6 +59,15 @@ about_content: | # this will include new lines to allow paragraphs
   In my spare time, I run tabletop roleplaying games in a number of local and online communities.
 
 content:
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **Languages:** MATLAB, Python, Bash, Markdown
+      - **SCM Skills:** Git, SVN, GitHub, GitLab
+      - **Containers:** Docker, Docker Compose
+      - **Platforms:** Ubuntu, Windows
+      - **AWS Services:** EC2, S3, API Gateway, Route 53, Lambda, ECR, IAM
+      - **Other Skills**: Dash/Plotly, NGINX, Jekyll, TSQL, Agile, Jira
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -77,7 +86,9 @@ content:
       - layout: left
         title: Python data collection for sensor fusion
         quote: >
-          **Python** CLI tool to collect and syncronize data streams from a variety of USB audio, video, and serial devices. Developed a framework so that more types of sensors could be added in the future.
+          Multi-process Python CLI application
+        description: |
+          Developed a **Python** CLI tool to collect and syncronize data streams from a variety of USB audio, video, and serial devices. Developed a framework so that more types of sensors could be added in the future.
   - title: Experience
     layout: list
     content:
@@ -108,15 +119,6 @@ content:
           ABET accredited degree with 12 months of engineering co-op experience
         description: | # this will include new lines to allow paragraphs
           Courses in analog & digital circuits, computer architecture, Japanese language, and software engineering. Multiple 3-6 month co-ops with Harris RF Communications (2010-2012) and Bose Corporation (2012) running and developing **MATLAB** code for audio measurements. Lead a team project to develop a **Java**-based "vending machine". Designed PCBs and wrote micro-controller firmware for a capacitive-touch keyboard as part of a senior design team. Music Director and Business Director for RIT's college radio station, WITR. Teaching assistant and paid tutor for the electrical engineering department. Accepted into the RIT Honors program and the Tau Beta Pi professional organization.
-  - title: Skills
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - **Languages:** MATLAB, Python, Bash, Markdown
-      - **SCM Skills:** Git, SVN, GitHub, GitLab
-      - **Containers:** Docker, Docker Compose
-      - **Platforms:** Ubuntu, Windows
-      - **AWS Services:** EC2, S3, API Gateway, Route 53, Lambda, ECR, IAM
-      - **Other Skills**: Dash/Plotly, NGINX, Jekyll, TSQL, Agile, Jira
 
 # Footer
 footer_show_references: true
