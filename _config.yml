@@ -146,5 +146,6 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  "README.md"
+  "README.md",
+  "*.sh"
   ]

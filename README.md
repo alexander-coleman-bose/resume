@@ -1,5 +1,9 @@
 # Resume
 
+Currently hosted at [alexcoleman.info](https://alexcoleman.info/)
+
+## Getting Started
+
 Add a `.env` file with the following content:
 
 ```
