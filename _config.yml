@@ -16,7 +16,7 @@ website:
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
 # twitter_username: jekyllrb
@@ -35,9 +35,9 @@ linkedin_username: alex-coleman-3a506a74
 
 # Additional icon links
 # additional_links:
-# - title: Link name
-#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+# - title: View the repository for this resume on GitHub (LordMailman/resume)
+#   icon: fab fa-github
+#   url: https://github.com/LordMailman/resume
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -52,11 +52,19 @@ linkedin_username: alex-coleman-3a506a74
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Experienced engineer looking to further develop skills in software development, deployment, and operations.
+  Experienced engineer looking to further develop skills in software
+  development, deployment, and operations. You can view the repository for this
+  resume on GitHub
+  ([github.com/LordMailman/resume](https://github.com/LordMailman/resume)).
 
-  I love learning new technologies, and I have a very broad set of skills, ranging from **software development** to **hardware/firmware experience**, and from **Linux administration** to **cloud deployment**. Certified **Agile Scrum Master**. Expert **MATLAB** developer.
+  I love learning new technologies, and I have a very broad set of skills,
+  ranging from **software development** to **hardware/firmware experience**,
+  and from **Linux administration** to **cloud deployment**. Certified **Agile
+  Scrum Master**. Expert **MATLAB** developer.
 
-  In my spare time, I run tabletop roleplaying games in a number of local and online communities.
+  In my spare time, I love hiking beautiful New England and running tabletop
+  roleplaying games in a number of virtual and local communities in the greater
+  Worcester area.
 
 content:
   - title: Skills
@@ -68,7 +76,7 @@ content:
       - **Platforms:** Ubuntu, Windows
       - **AWS Services:** EC2, S3, API Gateway, Route 53, Lambda, ECR, IAM
       - **Other Skills**: Dash/Plotly, NGINX, Jekyll, TSQL, Agile, Jira
-  - title: Projects # Title for the section
+  - title: Selected Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -76,19 +84,32 @@ content:
         quote: >
           Automated testing and deployment for MATLAB toolboxes
         description: | # this will include new lines to allow paragraphs
-          Designed and implemented a container-based pipeline hosted on **AWS EC2** to automatically test, package, and deploy a number of **MATLAB** toolboxes. Originally written in **GitLab CI** for repositories on GitLab, and rewritten to run on **Jenkins** when the repositories were migrated to GitHub Enterprise. Jobs were also written to run static code analysis, to build and deploy **Docker** containers to **AWS ECR**, and to build and deploy **Jekyll** sites to host toolbox documentation behind an **NGINX** reverse proxy.
+          Designed and implemented a container-based pipeline hosted on **AWS
+          EC2** to automatically test, package, and deploy a number of
+          **MATLAB** toolboxes. Originally written in **GitLab CI** for
+          repositories on GitLab, and rewritten to run on **Jenkins** when the
+          repositories were migrated to GitHub Enterprise. Jobs were also
+          written to run static code analysis, to build and deploy **Docker**
+          containers to **AWS ECR**, and to build and deploy **Jekyll** sites
+          to host toolbox documentation behind an **NGINX** reverse proxy.
       - layout: left
         title: MATLAB logging micro-service
         quote: >
           Micro-service to collect information on MATLAB environments
         description: |
-          Developed a **Python** micro-service and a **MATLAB** client to collect information about the MATLAB environments of our users, and deployed the service using **AWS API Gateway**, **AWS Lambda**, and **AWS S3**.
+          Developed a **Python** micro-service and a **MATLAB** client to
+          collect information about the MATLAB environments of our users, and
+          deployed the service using **AWS API Gateway**, **AWS Lambda**, and
+          **AWS S3**.
       - layout: left
         title: Python data collection for sensor fusion
         quote: >
           Multi-process Python CLI application
         description: |
-          Developed a **Python** CLI tool to collect and syncronize data streams from a variety of USB audio, video, and serial devices. Developed a framework so that more types of sensors could be added in the future.
+          Developed a **Python** CLI tool to collect and syncronize data
+          streams from a variety of USB audio, video, and serial devices.
+          Developed a framework so that more types of sensors could be added in
+          the future.
   - title: Experience
     layout: list
     content:
@@ -99,7 +120,14 @@ content:
         quote: >
           Development and support for MATLAB & Python tools
         description: | # this will include new lines to allow paragraphs
-          Developed **MATLAB** tools to support audio measurement and analysis as part of a small team. Lead CI/CD development to implement automatic testing and deployment for current and future **MATLAB** toolboxes. Implemented and supported a **Jenkins** server and agents on AWS to run the CI/CD pipelines. Supported dozens of engineers across multiple divisions with a wide variety of MATLAB and Python tools. Wrote stored procedures and administrated access and backups for an **SQL** server.
+          Developed **MATLAB** tools to support audio measurement as part of a
+          small team. Lead CI/CD development to implement automatic testing and
+          deployment for current and future **MATLAB** toolboxes. Implemented
+          and supported a **Jenkins** server and agents on AWS to run the CI/CD
+          pipelines. Supported dozens of engineers across multiple divisions
+          with a wide variety of MATLAB and Python tools. Wrote SQL stored
+          procedures and administrated access and backups for an **MSSQL**
+          database.
       - layout: right
         title: Bose Corporation
         sub_title: Electrical Engineer
@@ -107,7 +135,35 @@ content:
         quote: >
           Support for audio measurements and demonstrations
         description: |
-          Developed and supported **MATLAB** tools for audio measurements, and wrote pipelines for **GitLab CI** to test & deploy **MATLAB** toolboxes and **Jekyll** documentation sites. Designed and ran demonstrations showcasing different audio solutions for use with consumer VR headsets. Developed **Python** and **Arduino** code to demonstrate spatial audio experiences with headtracking.
+          Developed and supported **MATLAB** tools for audio measurements, and
+          wrote pipelines for **GitLab CI** to test & deploy **MATLAB**
+          toolboxes and **Jekyll** documentation sites. Designed and ran
+          demonstrations showcasing different audio solutions for use with
+          consumer VR headsets. Developed **Python** and **Arduino** code to
+          demonstrate spatial audio experiences with headtracking.
+      - layout: right
+        title: Bose Corporation
+        sub_title: Engineering Intern
+        caption: June 2012 - November 2012
+        quote: >
+          Development for noise cancellation tools
+        description: |
+          Feature development and support for a **MATLAB** GUI for tuning noise
+          cancellation systems. Collected user feedback to determine desired
+          features. Developed an event logging system in the GUI with the
+          ability to undo/redo changes.
+      - layout: right
+        title: Harris RF Communications
+        sub_title: Engineering Co-op
+        caption: Summer 2010, Summer 2011, Winter 2011-2012
+        quote: >
+          FPGA development & audio measurement support
+        description: |
+          Modified existing FPGA design to add a secondary soft-core CPU, and
+          modified the application code (**C**) to utilize the secondary CPU.
+          Developed a measurement procedures for loudness/intelligibility
+          studies. Used **MATLAB** and **VBA Excel** to pre-process and
+          organize the results for analysis.
   - title: Education
     layout: list
     content:
@@ -115,10 +171,19 @@ content:
         title: Rochester Institute of Technology
         sub_title: BS Electrical Engineering
         caption: 2008 - 2013
-        quote: >
-          ABET accredited degree with 12 months of engineering co-op experience
         description: | # this will include new lines to allow paragraphs
-          Courses in analog & digital circuits, computer architecture, Japanese language, and software engineering. Multiple 3-6 month co-ops with Harris RF Communications (2010-2012) and Bose Corporation (2012) running and developing **MATLAB** code for audio measurements. Lead a team project to develop a **Java**-based "vending machine". Designed PCBs and wrote micro-controller firmware for a capacitive-touch keyboard as part of a senior design team. Music Director and Business Director for RIT's college radio station, WITR. Teaching assistant and paid tutor for the electrical engineering department. Accepted into the RIT Honors program and the Tau Beta Pi professional organization.
+          Courses in analog & digital circuits, computer architecture, Japanese
+          language, and software engineering. 12 months of co-op experience
+          with Harris RF Communications (2010-2012) and Bose Corporation (2012)
+          running and developing **MATLAB** code for audio measurements. Lead a
+          team project to develop a **Java**-based "vending machine". Designed
+          PCBs and wrote micro-controller firmware for a capacitive-touch
+          keyboard as part of a senior design team
+          ([Piano Touch Keys II](http://edge.rit.edu/edge/P13364/public/Home)).
+          Music Director and Business Director for RIT's college radio station,
+          WITR. Teaching assistant and tutor for the electrical engineering
+          department. Accepted into the RIT Honors Program and the Tau Beta Pi
+          professional organization.
 
 # Footer
 footer_show_references: true
@@ -148,4 +213,4 @@ exclude : [
   "docker-compose.yml",
   "README.md",
   "*.sh"
-  ]
+]
