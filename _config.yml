@@ -16,7 +16,7 @@ website:
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 # twitter_username: jekyllrb
@@ -59,8 +59,8 @@ about_content: | # this will include new lines to allow paragraphs
 
   I love learning new technologies; I have a very broad set of skills, ranging
   from **software development** to **hardware/firmware experience**, and from
-  **Linux administration** to **cloud deployment**. Certified **Agile Scrum
-  Master**. Expert **MATLAB** developer.
+  **Linux administration** to **CI/CD pipeline development**. Certified **Agile
+  Scrum Master**. Expert **MATLAB** developer.
 
   In my spare time, I love hiking in beautiful New England, foraging mushrooms,
   and running tabletop roleplaying games in virtual and local communities around
