@@ -57,25 +57,26 @@ about_content: | # this will include new lines to allow paragraphs
   resume on GitHub
   ([github.com/LordMailman/resume](https://github.com/LordMailman/resume)).
 
-  I love learning new technologies, and I have a very broad set of skills,
-  ranging from **software development** to **hardware/firmware experience**,
-  and from **Linux administration** to **cloud deployment**. Certified **Agile
-  Scrum Master**. Expert **MATLAB** developer.
+  I love learning new technologies; I have a very broad set of skills, ranging
+  from **software development** to **hardware/firmware experience**, and from
+  **Linux administration** to **cloud deployment**. Certified **Agile Scrum
+  Master**. Expert **MATLAB** developer.
 
-  In my spare time, I love hiking beautiful New England and running tabletop
-  roleplaying games in a number of virtual and local communities in the greater
-  Worcester area.
+  In my spare time, I love hiking in beautiful New England, foraging mushrooms,
+  and running tabletop roleplaying games in virtual and local communities around
+  the greater Worcester area.
 
 content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - **Languages:** MATLAB, Python, Bash, Markdown
-      - **SCM Skills:** Git, SVN, GitHub, GitLab
+      - **Languages:** MATLAB, Python, Bash, TSQL, Markdown
+      - **SCM Proficiencies:** Git, SVN, GitHub, GitLab
+      - **Pipeline Proficiencies:** Jenkins, GitLab-CI
       - **Containers:** Docker, Docker Compose
       - **Platforms:** Ubuntu, Windows
       - **AWS Services:** EC2, S3, API Gateway, Route 53, Lambda, ECR, IAM
-      - **Other Skills**: Dash/Plotly, NGINX, Jekyll, TSQL, Agile, Jira
+      - **Other Skills**: Dash/Plotly, NGINX, Jekyll, Agile, Jira, Elastic
   - title: Selected Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -90,8 +91,8 @@ content:
           repositories on GitLab, and rewritten to run on **Jenkins** when the
           repositories were migrated to GitHub Enterprise. Jobs were also
           written to run static code analysis, to build and deploy **Docker**
-          containers to **AWS ECR**, and to build and deploy **Jekyll** sites
-          to host toolbox documentation behind an **NGINX** reverse proxy.
+          containers to **AWS ECR**, and to build and deploy **Jekyll** sites to
+          host toolbox documentation behind an **NGINX** reverse proxy.
       - layout: left
         title: MATLAB logging micro-service
         quote: >
@@ -106,7 +107,7 @@ content:
         quote: >
           Multi-process Python CLI application
         description: |
-          Developed a **Python** CLI tool to collect and syncronize data
+          Developed a **Python** CLI tool to collect and synchronize data
           streams from a variety of USB audio, video, and serial devices.
           Developed a framework so that more types of sensors could be added in
           the future.
@@ -123,11 +124,11 @@ content:
           Developed **MATLAB** tools to support audio measurement as part of a
           small team. Lead CI/CD development to implement automatic testing and
           deployment for current and future **MATLAB** toolboxes. Implemented
-          and supported a **Jenkins** server and agents on AWS to run the CI/CD
-          pipelines. Supported dozens of engineers across multiple divisions
-          with a wide variety of MATLAB and Python tools. Wrote SQL stored
-          procedures and administrated access and backups for an **MSSQL**
-          database.
+          and administered a **Jenkins** server and agents on AWS to run the
+          CI/CD pipelines. Supported dozens of engineers across multiple
+          divisions with a wide variety of MATLAB and Python tools. Wrote SQL
+          stored procedures and administrated access and backups for an
+          **MSSQL** database.
       - layout: right
         title: Bose Corporation
         sub_title: Electrical Engineer
@@ -173,8 +174,8 @@ content:
         caption: 2008 - 2013
         description: | # this will include new lines to allow paragraphs
           Courses in analog & digital circuits, computer architecture, Japanese
-          language, and software engineering. 12 months of co-op experience
-          with Harris RF Communications (2010-2012) and Bose Corporation (2012)
+          language, and software engineering. 12 months of co-op experience with
+          Harris RF Communications (2010-2012) and Bose Corporation (2012)
           running and developing **MATLAB** code for audio measurements. Lead a
           team project to develop a **Java**-based "vending machine". Designed
           PCBs and wrote micro-controller firmware for a capacitive-touch
