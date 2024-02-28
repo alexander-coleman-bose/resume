@@ -6,7 +6,7 @@ repository: LordMailman/resume
 version: 2
 
 # Personal info
-name: Alex Coleman
+name: Alex St. Amour
 title: Software Engineer
 email:
 # email_title: Email (Email title override)
@@ -26,7 +26,7 @@ github_username: LordMailman
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-linkedin_username: alex-coleman-3a506a74
+linkedin_username: alex-st-amour-3a506a74
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
@@ -52,15 +52,14 @@ linkedin_username: alex-coleman-3a506a74
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Experienced engineer looking to further develop skills in software
+  Experienced engineer looking to further develop my skills in software
   development, deployment, and operations. You can view the repository for this
   resume on GitHub
   ([github.com/LordMailman/resume](https://github.com/LordMailman/resume)).
 
   I love learning new technologies; I have a very broad set of skills, ranging
   from **software development** to **hardware/firmware experience**, and from
-  **Linux administration** to **CI/CD pipeline development**. Certified **Agile
-  Scrum Master**. Expert **MATLAB** developer.
+  **Linux administration** to **CI/CD pipeline development**.
 
   In my spare time, I love hiking in beautiful New England, foraging mushrooms,
   and running tabletop roleplaying games in virtual and local communities around
@@ -70,13 +69,13 @@ content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - **Languages:** MATLAB, Python, Bash, TSQL, Markdown
+      - **Languages:** Bash, Python, Powershell, MATLAB, SQL, Markdown
       - **SCM Proficiencies:** Git, SVN, GitHub, GitLab
       - **Pipeline Proficiencies:** Jenkins, GitLab-CI
       - **Containers:** Docker, Docker Compose
-      - **Platforms:** Ubuntu, Windows
-      - **AWS Services:** EC2, S3, API Gateway, Route 53, Lambda, ECR, IAM
-      - **Other Skills**: Dash/Plotly, NGINX, Jekyll, Agile, Jira, Elastic
+      - **Platforms:** Ubuntu, Windows, RHEL
+      - **AWS Services:** EC2, S3, RDS, API Gateway, Route 53, Lambda, ECR, IAM
+      - **Other Skills**: NGINX, Jekyll, Agile, Jira
   - title: Selected Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -116,13 +115,26 @@ content:
     content:
       - layout: right
         title: Bose Corporation
+        sub_title: Software Engineer / SME
+        caption: August 2022 - present
+        quote: >
+          Subject Matter Expert and Administration for Build & Release tools
+        description: | # this will include new lines to allow paragraphs
+          Administered & provided support for build & release tools to the Bose
+          engineering division, including GitHub, SVN, Artifactory, Cloudbees
+          CD/RO, and Fisheye/Crucible. Provided high-tier user support. Worked
+          with operations/IT teams to architect & administer applications,
+          servers, and backups. Worked with users & operations to migrate
+          on-premise applications to SaaS/Cloud services.
+      - layout: right
+        title: Bose Corporation
         sub_title: Software Engineer
-        caption: January 2020 - present
+        caption: January 2020 - August 2022
         quote: >
           Development and support for MATLAB & Python tools
         description: | # this will include new lines to allow paragraphs
           Developed **MATLAB** tools to support audio measurement as part of a
-          small team. Lead CI/CD development to implement automatic testing and
+          small team. Lead development of CI/CD pipelines to implement automatic testing and
           deployment for current and future **MATLAB** toolboxes. Implemented
           and administered a **Jenkins** server and agents on AWS to run the
           CI/CD pipelines. Supported dozens of engineers across multiple

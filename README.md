@@ -2,10 +2,9 @@
 
 - [Resume](#resume)
   - [Getting Started](#getting-started)
+    - [Building with Docker-Compose](#building-with-docker-compose)
   - [Contents of this repo](#contents-of-this-repo)
   - [Acknowledgements](#acknowledgements)
-
-Currently hosted at [alexcoleman.info](https://alexcoleman.info/)
 
 ## Getting Started
 
@@ -16,6 +15,8 @@ RESUME_EMAIL="fake@email.com"
 RESUME_PHONE="+1(234)567-8901"
 RESUME_SITE="example.com"
 ```
+
+### Building with Docker-Compose
 
 When you build the site with `docker-compose`, personal information like
 email/phone/site will be filled from the variables in `.env`. You can build and
@@ -28,6 +29,10 @@ docker-compose up
 _Note: Because the page content is contained in `_config.yml` instead of a
 Markdown content file, the docker-container must be restarted manually to
 refresh the content._
+
+<!-- ### Building with Jekyll
+
+- [Installing Ruby and Jekyll](https://jekyllrb.com/docs/installation/) -->
 
 ## Contents of this repo
 
