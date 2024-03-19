@@ -1,6 +1,6 @@
 # Site
 repository: LordMailman/resume
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: assets/favicon.ico
 
 # Content configuration version
 version: 2
@@ -58,24 +58,24 @@ about_content: | # this will include new lines to allow paragraphs
   ([github.com/LordMailman/resume](https://github.com/LordMailman/resume)).
 
   I love learning new technologies; I have a very broad set of skills, ranging
-  from **software development** to **hardware/firmware experience**, and from
-  **Linux administration** to **CI/CD pipeline development**.
+  from **software development** and **hardware/firmware experience**, to
+  **Linux/Cloud administration** and **CI/CD pipeline development**.
 
   In my spare time, I love hiking in beautiful New England, foraging mushrooms,
-  and running tabletop roleplaying games in virtual and local communities around
-  the greater Worcester area.
+  and playing tabletop games in virtual and local communities around the
+  greater Worcester area.
 
 content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - **Languages:** Bash, Python, Powershell, MATLAB, SQL, Markdown
+      - **Languages:** Bash, Python, MATLAB, Powershell, SQL, Markdown
       - **SCM Proficiencies:** Git, SVN, GitHub, GitLab
       - **Pipeline Proficiencies:** Jenkins, GitLab-CI
-      - **Containers:** Docker, Docker Compose
+      - **Containers:** Docker, Docker-Compose
       - **Platforms:** Ubuntu, Windows, RHEL
       - **AWS Services:** EC2, S3, RDS, API Gateway, Route 53, Lambda, ECR, IAM
-      - **Other Skills**: NGINX, Jekyll, Agile, Jira
+      - **Other Skills**: NGINX, Jekyll, Agile, Jira, Arduino, Raspberry Pi
   - title: Selected Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -138,9 +138,8 @@ content:
           deployment for current and future **MATLAB** toolboxes. Implemented
           and administered a **Jenkins** server and agents on AWS to run the
           CI/CD pipelines. Supported dozens of engineers across multiple
-          divisions with a wide variety of MATLAB and Python tools. Wrote SQL
-          stored procedures and administrated access and backups for an
-          **MSSQL** database.
+          divisions with a wide variety of MATLAB and Python tools. Designed an
+          **MSSQL** database and procedures to interface with the MATLAB tools.
       - layout: right
         title: Bose Corporation
         sub_title: Electrical Engineer
@@ -163,20 +162,21 @@ content:
         description: |
           Feature development and support for a **MATLAB** GUI for tuning noise
           cancellation systems. Collected user feedback to determine desired
-          features. Developed an event logging system in the GUI with the
-          ability to undo/redo changes.
-      - layout: right
-        title: Harris RF Communications
-        sub_title: Engineering Co-op
-        caption: Summer 2010, Summer 2011, Winter 2011-2012
-        quote: >
-          FPGA development & audio measurement support
-        description: |
-          Modified existing FPGA design to add a secondary soft-core CPU, and
-          modified the application code (**C**) to utilize the secondary CPU.
-          Developed a measurement procedures for loudness/intelligibility
-          studies. Used **MATLAB** and **VBA Excel** to pre-process and
-          organize the results for analysis.
+          features. Developed an event logging system for the GUI to allow
+          users to step back through the history of parameter changes
+          (undo/redo).
+      # - layout: right
+      #   title: Harris RF Communications
+      #   sub_title: Engineering Co-op
+      #   caption: Summer 2010, Summer 2011, Winter 2011-2012
+      #   quote: >
+      #     FPGA development & audio measurement support
+      #   description: |
+      #     Modified existing FPGA design to add a secondary soft-core CPU, and
+      #     modified the application code (**C**) to utilize the secondary CPU.
+      #     Developed a measurement procedures for loudness/intelligibility
+      #     studies. Used **MATLAB** and **VBA Excel** to pre-process and
+      #     organize the results for analysis.
   - title: Education
     layout: list
     content:
